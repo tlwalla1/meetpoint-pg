@@ -5,7 +5,7 @@ module.exports = function(grunt) {
                 paths: ['www/css']
             },
             files: {
-                'www/css/index.min.debug.css': 'www/less/index.less'
+                'www/css/default/index.min.debug.css': 'www/less/themes/default/index.less'
             }
         },
         production: {
@@ -14,7 +14,7 @@ module.exports = function(grunt) {
                 compress: true
             },
             files: {
-                'www/css/index.min.css': 'www/less/index.less'
+                'www/css/default/index.min.css': 'www/less/themes/default/index.less'
             }
         }
     });
