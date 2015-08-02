@@ -26,17 +26,34 @@
         <meta name="msapplication-tap-highlight" content="no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <link rel="stylesheet" type="text/less" href="less/themes/default/index.less" />
-        <title>Meet Point</title>
+        <title>MeetPoint</title>
+        <link id="style" rel="stylesheet" type="text/css" href="css/default/index.min.debug.css" />
+
+        <!-- less -->
+        <script type="text/javascript">
+          less = {
+            env: "development",
+            async: false,
+            fileAsync: false,
+            poll: 1000,
+            functions: {},
+            dumpLineNumbers: "comments",
+            relativeUrls: true,
+            rootpath: ""
+          };
+        </script>
+        <script type="text/javascript" src="spec/lib/less/less.min.js"></script>
+
+        <!-- jQuery -->
+        <script type="text/javascript" src="spec/lib/jQuery-2.1.4/jquery-2.1.4.js"></script>
     </head>
     <body>
-        <div class="app">
-            <h1>PhoneGap</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div>
+        <div class="titlebar">
+          <span class="icon navicon fa-bars"></span>
+          <div class="title">MeetPoint</div>
         </div>
+        <div class="navbar"></div>
+        <div id="maincontent" class="panel">Content Goes Here</div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">

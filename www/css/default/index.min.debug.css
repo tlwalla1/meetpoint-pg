@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.panel {
+  padding: 10px 15px 0px 15px;
+}
+.titlebar {
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  background-color: #21252b;
+  color: #999999;
+}
+.navicon {
+  height: 40px;
+  width: 40px;
+  float: left;
+  padding-right: 5px;
+}
