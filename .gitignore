@@ -1,34 +1,6 @@
-# visual studio
-*.obj
-*.exe
-*.pdb
-*.user
-*.aps
-*.pch
-*.vspscc
-*.vssscc
-*_i.c
-*_p.c
-*.ncb
-*.suo
-*.tlb
-*.tlh
-*.bak
-*.cache
-*.ilk
-*.log
-*.lib
-*.sbr
-*.sdf
-ipch/
-obj/
-[Bb]in
-[Dd]ebug*/
-[Rr]elease*/
-
 # nodejs
 node_modules
 .grunt/
 coverage
-scripts/config.json
-www/js/*
+www/js
+www/css
