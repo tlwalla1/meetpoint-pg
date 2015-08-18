@@ -2,7 +2,7 @@ module.exports = function(grunt) {
     grunt.config('babel', {
         options: {
             sourceMap: false,
-            modules: 'amd',
+            //modules: 'amd',
             moduleIds: true,
             moduleRoot: 'www',
             sourceRoot: 'js-babel',

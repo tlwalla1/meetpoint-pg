@@ -31,3 +31,4 @@ node_modules
 .grunt/
 coverage
 scripts/config.json
+www/js

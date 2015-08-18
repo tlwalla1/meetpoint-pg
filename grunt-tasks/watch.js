@@ -4,8 +4,8 @@ module.exports = function(grunt) {
             livereload: true
         },
         babel: {
-            files: ['www/js-babel/*.js'],
-            tasks: ['babel'],
+            files: ['www/js-babel/**/*.js'],
+            tasks: ['babel:dist'],
             options: {
                 spawn: false
             }
